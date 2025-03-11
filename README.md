@@ -1,12 +1,64 @@
-# React + Vite
+# Code by Mehedi 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Master Front-end Web Development with modern technologies like Tailwind CSS, React, and more!
 
-Currently, two official plugins are available:
+## 📌 Project: Simple Calculator
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ⚡ Technologies
 
-## Expanding the ESLint configuration
+- React.js
+- TailwindCSS (version 4)
+- react-icons
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Install react.js with vite
+
+> ```bash
+> npm create vite@latest simple-calculator
+> cd simple-calculator
+> npm install
+> npm i react-icons
+> npm run dev
+> ```
+
+---
+
+## Install Tailwind CSS (v4)
+
+> ```bash
+> npm install tailwindcss @tailwindcss/vite
+> ```
+
+> vite.config.js
+>
+> ```bash
+> import { defineConfig } from 'vite'
+> import tailwindcss from '@tailwindcss/vite'
+> export default defineConfig({
+>  plugins: [
+>    tailwindcss(),
+>  ],
+> })
+> ```
+
+> CSS
+>
+> ```bash
+> @import "tailwindcss";
+> ```
+
+> Run the project
+>
+> ```bash
+> npm run dev
+> ```
+
+## 🌟 Need a Custom Web Solution?
+
+I provide high-quality Front-end web development services. Check out my work and let’s build something great together!
+
+👉 [Hire Me on Fiverr](https://www.fiverr.com/sellers/mdmehediweb/edit)  
+👉 [View My Portfolio](https://mdmehedihasan.vercel.app/)
+
+let's turn your ideas into reality! Feel free to reach out. 😊
